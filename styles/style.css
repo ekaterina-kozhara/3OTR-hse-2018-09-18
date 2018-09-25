@@ -47,10 +47,36 @@ table {
 	border-spacing: 0;
 }
 h1 {
-font-family: "PT Sans  caption", sans-serif;
-font-size: 70px
+font-family: "PT Sans caption", sans-serif;
+font-size: 40px;
+font-weight:bold;
+margin-bottom: 9px;
+
 }
+p:first-of-type {
+  font-family: "PT Sans caption", sans-serif;
+  color:gray;
+  opacity: 0.9;
+  font-size: 22px;
+line-height: 21;
+
+}
+
 p
 {
 font-family: "PT Sans", sans-serif;
+}
+body {
+  background-image: url(dc-online-media-mockup.jpg);
+  background-size: 800px 20624px;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+body {
+  width: 700px;
+  /* margin: 0 auto; */
+  margin-top: 68px;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
 }
