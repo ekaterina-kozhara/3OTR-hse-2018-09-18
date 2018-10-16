@@ -2,9 +2,7 @@
 body {
   margin-top: 68px;
 
-	text-align: center;
-
-	background-image: url(dc-online-media-mockup.jpg);
+  background-image: url(dc-online-media-mockup.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 800px 20624px;
@@ -98,4 +96,22 @@ li {
 	font-family: "PT Sans Caption", sans-serif;
 	font-size: 22px;
 	line-height:32px;
+}
+nav {
+  position:fixed;
+  top:0;
+  left:0;
+}
+article h1,h2,h3,p,{
+  width: 700px;
+  margin: 0 auto;
+}
+article img {
+  display: block;
+
+  width: 1000px;
+  margin: 0 auto;
+}
+nav ul li ul {
+  color: gray;
 }
