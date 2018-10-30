@@ -104,14 +104,27 @@ nav {
 
   width: 300px;
 
+  transition: opacity 300ms linear;
+
+  opacity: 0.1;
+
   font-family: "PT Sans Caption", sans-serif;
   font-size: 14px;
+}
+nav:hover {
+  opacity: 1;
 }
 nav li {
   margin-bottom: 20px;
 }
 nav ul li:first-of-type {
   font-weight: bold;
+}
+nav > ul > li {
+  color: rgba(0, 0, 0, 0.8);
+}
+nav > ul > li:hover {
+  color: rgba(0, 0, 0, 1);
 }
 article h1,h2,h3,p,{
   width: 700px;
@@ -127,8 +140,15 @@ nav ul li ul {
   margin-top: 20px;
   padding-left: 15px;
 
-  color: gray;
+  color: rgba(0, 0, 0, 0.5);
 }
+nav ul li ul li:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+nav a {
+  text-decoration: none;
+}
+
 article li {
   margin: 17px 0 17px 30px;
 }
