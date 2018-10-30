@@ -90,7 +90,7 @@ h4 {
 	font-size: 22px;
 	font-weight: bold;
 }
-li {
+article li {
 	margin-bottom: 30px;
 
 	font-family: "PT Sans Caption", sans-serif;
@@ -99,8 +99,19 @@ li {
 }
 nav {
   position:fixed;
-  top:0;
-  left:0;
+  top:50px;
+  left:50px;
+
+  width: 300px;
+
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 14px;
+}
+nav li {
+  margin-bottom: 20px;
+}
+nav ul li:first-of-type {
+  font-weight: bold;
 }
 article h1,h2,h3,p,{
   width: 700px;
@@ -113,5 +124,16 @@ article img {
   margin: 0 auto;
 }
 nav ul li ul {
+  margin-top: 20px;
+  padding-left: 15px;
+
   color: gray;
+}
+article li {
+  margin: 17px 0 17px 30px;
+}
+article ul {
+  margin: 29px auto;
+
+  list-style-type: disc;
 }
